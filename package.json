@@ -1,8 +1,7 @@
 {
   "name": "food-app",
-  "version": "1.0.0",
   "main": "expo-router/entry",
-  "private": true,
+  "version": "1.0.0",
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
@@ -10,7 +9,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "build": "expo export",
+    "build": "expo export",  
     "lint": "expo lint"
   },
   "jest": {
@@ -50,6 +49,7 @@
     "react-test-renderer": "18.2.0",
     "typescript": "^4.9.5"
   },
+  "private": true,
   "browserslist": {
     "production": [
       ">0.2%",
